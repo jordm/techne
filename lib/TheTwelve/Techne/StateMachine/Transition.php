@@ -15,7 +15,7 @@ class Transition implements \TheTwelve\Techne\Transition
      * the state after the transition
      * @var TheTwelve\Techne\State
 	 */
-	protected $tansitionedState;
+	protected $transitionedState;
 
 	/**
 	 * a lambda function that should return a boolean value
@@ -30,6 +30,12 @@ class Transition implements \TheTwelve\Techne\Transition
 	 * @var \Closure
 	 */
 	protected $afterTransition;
+
+	/**
+	 * 
+	 * @var 
+	 */
+	protected $transitionState;
 
 	/**
 	 * initialize the transition
